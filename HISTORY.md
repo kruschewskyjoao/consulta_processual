@@ -2,8 +2,8 @@
 
 No back-end realizei testes de integração:
 Casos positivos e negativos:
- - Error 404 : Caso a pessoa passe um cnj inválido (não existente no banco de dados).
- - Ok 200 : Caso a pessoa passe um cnj válido.
+ - Error status 404 : Caso a pessoa passe um cnj inválido (não existente no banco de dados).
+ - Ok status 200 : Caso a pessoa passe um cnj válido.
 
 No front-end fiz os seguintes testes
 - Se existe input na tela.
