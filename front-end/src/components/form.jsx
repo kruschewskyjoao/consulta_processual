@@ -83,13 +83,18 @@ function Form() {
           onChange={handleChange}
         />
         <button
+        /* border bg-indigo-500 border-indigo-400
+  hover:bg-transparent hover:text-indigo-100 */
           className="bg-blue-500
-        hover:bg-blue-700
+         border-indigo-400
+          border
+        hover:bg-blue-600
         text-white
         font-bold
         h-12
         px-5
         rounded
+        hover:text-indigo-100
         shadow-lg"
           type="button"
           onClick={pesquisarButton}
