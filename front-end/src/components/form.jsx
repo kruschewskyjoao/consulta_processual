@@ -83,8 +83,6 @@ function Form() {
           onChange={handleChange}
         />
         <button
-        /* border bg-indigo-500 border-indigo-400
-  hover:bg-transparent hover:text-indigo-100 */
           className="bg-blue-500
          border-indigo-400
           border
