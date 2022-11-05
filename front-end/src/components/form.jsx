@@ -30,26 +30,22 @@ function Form() {
   useEffect(() => () => setNotFound(true), []);
 
   return (
-    <div className="w-full text-center">
-      <form className="mr-2">
-        <div className="inline-block relative w-32">
-          <select
-            className="block
-            w-24
+    <div className="w-full text-center h-auto">
+      <form>
+        <select
+          className="
             bg-white border
-            border-gray-400
             hover:border-gray-500
-            px-15
+            text-center
             h-12
-            pr-1
+            m-2
             rounded
             shadow
             focus:outline-none
             focus:shadow-outline"
-          >
-            <option value="1">Tribunal</option>
-          </select>
-        </div>
+        >
+          <option value="1">Tribunal</option>
+        </select>
         {/*         <InputMask
           mask="9999999-99.9999.9.99.9999"
           className="
@@ -68,13 +64,13 @@ function Form() {
         <input
           className="
           shadow-lg
+          m-2
           border-2
           border-t-white
           border-l-white
           border-r-white
           border-slate-300
           rounded
-          w-1/4
           h-12"
           type="text"
           placeholder="  Somente número"
