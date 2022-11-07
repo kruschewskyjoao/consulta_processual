@@ -1,8 +1,8 @@
 # Aplicação de consulta processual
 
 ### Descrição sobre a aplicação
-A aplicação é de consulta processual, onde você vai realizar todas as consultas dos seus processos.
-É uma aplicação Full Stack, o back-end é Api RESTful onde foi utilizado express, sequelize, docker e middlewares de erro. Já no front-end foi utilizado o React com algumas bibliotecas extras que vão ser instalados ao dar npm install.
+- A aplicação é de consulta processual, onde você vai realizar todas as consultas dos seus processos.
+- É uma aplicação Full Stack, o back-end é Api RESTful onde foi utilizado express, sequelize, docker e middlewares de erro. Já no front-end foi utilizado o React com algumas bibliotecas extras que vão ser instalados ao dar npm install.
 
 ## Para rodar o back-end é necessário o Docker
 - Documentação de instalação para Ubuntu: https://docs.docker.com/engine/install/ubuntu/
@@ -25,20 +25,20 @@ A aplicação é de consulta processual, onde você vai realizar todas as consul
 ## Rode o back-end com Docker
 - cd back-end
 - docker-compose up -d --build
-Vamos entrar no container:
+### Vamos entrar no container:
 - docker exec -it back_end_jus bash
-No container, vamos dar um npm i:
+### No container, vamos dar um npm i:
 - npm install
-Ainda no container, vamos popular o banco:
+### Ainda no container, vamos popular o banco:
 - npm run db:reset
-Deixar o banco rodando:
-- npm start
+### Deixar o banco rodando:
+- npm run dev
 
 ## Rode o front-end
-Abra outro terminal e navegue até a pasta front-end
-Instale as dependências
+### Abra outro terminal e navegue até a pasta front-end
+### Instale as dependências
 - npm install
-Após instalar:
+### Após instalar:
 - npm start
 
 # Após isso, a aplicação já estará funcionando.
@@ -52,10 +52,8 @@ Após instalar:
 
 ## Para realizar testes
 
-### Front-end
-Na pasta de frond, basta digitar:
+### Na pasta front-end, digite:
 - npm run test
 
-### Back-end
-Na pasta de back-end, basta digitar:
+### Na pasta back-end, digite:
 - npm run test
